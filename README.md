@@ -1,18 +1,19 @@
-# SUTE CS Labs
+## Task 1
 
-This repository contains laboratory and practical assignments completed as part of Computer Science studies at SUTE.
+A Python program that calculates the value of the function:
 
-The repository is organized by Git branches. Each laboratory work is stored in its corresponding branch, where you can find the related source code, tasks, and other required files.
+\[
+f(x)=4^{2x}-\frac{\ln(\cos x)}{2-\sqrt[3]{x^2+1}}
+\]
 
-The `main` branch serves as the central branch of the repository and contains general information about the project.
+The program uses the `math` library for logarithmic and trigonometric operations and handles invalid input values and overflow cases.
 
-## Structure
+## Task 2
 
-* Laboratory works are separated into dedicated branches.
-* Each branch contains files related only to the corresponding laboratory work.
-* Python scripts are used for programming assignments.
-* Git is used for version control and branch-based organization of the coursework.
+A Python program that calculates the value of the expression:
 
-## Purpose
+\[
+Z=\sqrt{x^3+\pi^2}+e^{y+1}+\sqrt{m+\tan m}
+\]
 
-The purpose of this repository is to keep laboratory works organized, track changes during development, and practice working with Git and GitHub.
+The calculation is implemented in a separate function that accepts `x`, `y`, and `m` as arguments and returns the result.
